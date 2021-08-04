@@ -1,0 +1,30 @@
+#medidas-area{
+  width: 100%;
+  height: 100%;
+
+  h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+  }
+
+  #container-medidas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }  
+
+  .medidas-txt{
+    display: flex;
+    align-items: center;
+  }
+
+  .medidas-txt, .medidas-img{
+    width: 40%;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
