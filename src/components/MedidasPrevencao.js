@@ -22,7 +22,7 @@ const MedidasPrevencao = () => {
           </p>
         </div>
 
-        <div className="medidas-img">
+        <div className="medidas-img order1">
           <img src="/imagens/img1.png" alt="" />
         </div>
 

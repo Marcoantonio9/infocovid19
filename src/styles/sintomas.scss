@@ -1,0 +1,88 @@
+#sobre{
+  width: 100%;
+
+  h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+  }
+
+  h3{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+  }
+  .linha-curta-h3{
+    margin-left: 20px;
+    width: 16%;
+  }
+  #casos-suspeita{
+    width: 100%;
+
+    .linha-media-h3{
+      width: 23%;
+    }
+
+    ul{
+      padding: 0px 20px 20px 20px;
+    }
+  }
+
+  #area-cards-sintomas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0px 20px;
+
+    .card-sintomas{
+      border: 1px solid black;
+      border-radius: 10px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      img{
+        width: 100%;
+      }
+      span{
+        padding-bottom: 20px;
+        font-size: 22px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+@media(max-width: 800px){
+  #sobre{
+    
+    h2{
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+
+    .linha-curta-h3{
+      width: 60%;
+    }
+    #area-cards-sintomas{
+      justify-content: center;
+    }
+    #casos-suspeita{
+  
+      .linha-media-h3{
+        width: 70%;
+      }
+  
+      ul{
+        li{
+          padding-bottom: 10px;
+        }
+      }
+    }    
+  }
+}

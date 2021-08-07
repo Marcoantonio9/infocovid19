@@ -5,3 +5,22 @@
 
   font-family: 'Nunito', sans-serif;
 }
+
+#footer{
+  background-color: #031D44;
+  color: #ECECEC;
+
+  font-size: 19px;
+  font-weight: 300;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 70px;
+
+  a{
+    color: #ECECEC;
+  }
+}

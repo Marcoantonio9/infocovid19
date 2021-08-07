@@ -28,3 +28,24 @@
     }
   }
 }
+
+@media(max-width: 800px){
+  #medidas-area{
+    h2{
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+    #container-medidas{
+      flex-direction: column;
+  
+      .medidas-txt, .medidas-img{
+        width: 100%;
+      }
+  
+      .order1{
+        order: 1;
+      }
+    }
+  }
+
+}

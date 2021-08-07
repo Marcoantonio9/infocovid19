@@ -6,22 +6,31 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <div id="area-logo">
-          <span>InfoCovid-19 <i class="fas fa-virus-slash"></i></span>
+        <div className="logo-container">
+          {/* <img className="logo" src="/imagens/virus.png" alt="" /> */}
+          <label htmlFor="" className="logo-txt">InfoCovid-19</label>
         </div>
-
-        <ul>
+       
+        <input type="checkbox" id="check" />
+        
+        <div id="area-btn-menu">
+          
+          <label htmlFor="check" className="btn-menu">
+            <i className="fas fa-bars"></i>
+          </label>
+        </div>
+        <ul className="nav-list">
           <li>
-            <a href="#">Home</a>
+            <a href="#">Inicio</a>
           </li>
 
           <li>
-            <a href="#">Medidas de prevenção</a>
+            <a href="#">Medidas de Prevenção</a>
           </li>
 
           <li>
-            <a href="#">Sobre</a>
-          </li>
+            <a href="#">Sobre o Covid-19</a>
+          </li>                    
         </ul>
       </nav>
     </div>
