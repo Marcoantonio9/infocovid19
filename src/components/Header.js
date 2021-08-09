@@ -21,15 +21,15 @@ const Header = () => {
         </div>
         <ul className="nav-list">
           <li>
-            <a href="#">Inicio</a>
+            <a href="#container">Inicio</a>
           </li>
 
           <li>
-            <a href="#">Medidas de Prevenção</a>
+            <a href="#medidas-area">Medidas de Prevenção</a>
           </li>
 
           <li>
-            <a href="#">Sobre o Covid-19</a>
+            <a href="#sobre">Sobre o Covid-19</a>
           </li>                    
         </ul>
       </nav>
